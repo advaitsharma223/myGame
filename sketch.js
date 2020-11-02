@@ -10,8 +10,8 @@ var gameState = 0
 
 function preload() {
 
-  formImage = loadImage("images/formImg.png")
-  backgroundImage = loadImage("images/cityImage.jpeg")
+  formImage = loadImage("formImg.png")
+  backgroundImage = loadImage("cityImage.jpeg")
 }
 
 function setup() {
