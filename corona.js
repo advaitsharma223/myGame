@@ -5,7 +5,7 @@ class Corona {
         this.body = Bodies.circle(x, y, radius);
         this.radius = radius;
         World.add(world, this.body);
-        this.image = loadImage("images/covidEvil.png");
+        this.image = loadImage("covidEvil.png");
     }
 
     display() {
