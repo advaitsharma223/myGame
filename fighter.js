@@ -11,7 +11,7 @@ class Fighter {
         this.width = width;
         this.height = height;  
         World.add(world, this.body);
-        this.image = loadImage("images/covidWarrior.png");
+        this.image = loadImage("covidWarrior.png");
     }
 
     display() {
